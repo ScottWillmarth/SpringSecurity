@@ -6,7 +6,9 @@
         <title>Hello</title>
     </head>
     <body>
-        <h1>Hello!</h1>
-        
+        <h1>Hello ${pageContext.request.remoteUser}!</h1>
+        <form action="logout" method="post">
+            <div><input type="submit" value="Sign Out"/></div>
+        </form>
     </body>
 </html>

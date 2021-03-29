@@ -8,6 +8,5 @@
 </head>
 <body>
         <p>Click <a href="hello">here</a> to see a greeting.</p>
-
 </body>
 </html>
